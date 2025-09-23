@@ -1,0 +1,58 @@
+body {
+    background-image: url(a5bg.png);
+}
+
+h1 {
+    border: 20px;
+    background-color: white;
+    padding: 20px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#div {
+    border: 1px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font: bold;
+    text-align: justify;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font: bold;
+    border-bottom: 5px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+
+#div a {
+    text-decoration: none;
+}
+
+#div a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+nav li {
+    display: inline-block;
+    border: 1px solid black;
+    width: 150px;
+    background-color: darkblue;
+}
+nav li a {
+    color: white;
+    text-decoration:none ;
+    display: block;
+    padding: 20px;
+}
+
+nav li a:hover{
+    background-color: blue
+}
