@@ -1,0 +1,181 @@
+body {
+    background-color: grey;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr); 
+    border: 5px solid blue;
+    margin: 1em auto;
+    align-self: center;
+    width: 1100px;
+    height: 1000px;
+}
+
+header {
+    grid-row: 1;
+background-image: linear-gradient(to bottom, #0f00ff, #0020ff, #0030ff, #003cff, #0047ff, #0051ff, #005aff, #0062ff, #006cff, #0076ff, #007fff, #0088ff);
+    grid-column: span 12;
+
+}
+h1 {
+    padding-left: 20px;
+    
+}
+h1 a {
+    color: aquamarine;
+    text-decoration: none; 
+}
+
+h1 a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+header li {
+    display: inline-block;
+    padding: 0px;
+    background-image: linear-gradient(to bottom, #0f00ff, #0020ff, #0030ff, #003cff, #0047ff, #0051ff, #005aff, #0062ff, #006cff, #0076ff, #007fff, #0088ff);
+}
+header li a {
+    display: block;
+    color: aquamarine;
+    text-decoration: none;
+    padding: 20px;
+    width: 100px;
+}
+
+header li a:hover {
+    display: block;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(to top, #0f00ff, #0020ff, #0030ff, #003cff, #0047ff, #0051ff, #005aff, #0062ff, #006cff, #0076ff, #007fff, #0088ff);
+    width: 100px;
+}
+
+#section2 {
+    padding:10px;
+    grid-column: span 3;
+    background-color: lightblue;
+    grid-row: span 9;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.h21 {
+    margin: 0px;
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+#section3 {
+    background-color: white;
+    grid-column: span 9;
+    grid-row: span 9;
+    padding: 10px;
+
+}
+
+#section3 a {
+    color: red;
+    text-decoration: none;
+}
+
+#section3 a:hover {
+    color: green;
+    text-decoration: none;
+}
+
+.h22 {
+    margin: 0px;
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+.thebeef {
+    float: left;
+    border: 1px blue solid;
+    margin: 10px;
+}
+
+#section4 {
+    grid-column: span 8;
+    grid-row: span 9;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+#section4 h2 {
+    border-bottom: 2px solid blue
+}
+
+#section4 a {
+    color: red;
+    text-decoration: none;
+}
+
+#section4 a:hover {
+    color: green;
+    text-decoration: none;
+}
+
+.thebear {
+    float: right;
+    border: 1px blue solid;
+}
+
+#section5 {
+    grid-column: span 4;
+    grid-row: span 9;
+    background-color: lightblue;
+    font-weight: bold;
+    text-align: justify;
+    padding: 10px;
+}
+
+#section6 {
+    grid-column: span 4;
+    grid-row: span 9;
+    padding: 10px;
+    background-color: white;
+    color: blue;
+}
+
+#section6 h2 {
+    border-bottom: 2px solid blue;
+}
+
+#section7 {
+    background-color: white;
+    grid-column: span 4;
+    grid-row: span 9;
+    padding: 10px;
+    color: blue;
+}
+
+#section7 h2 {
+    border-bottom: 2px solid blue;
+}
+
+#section8 {
+    background-color: white;
+    grid-column: span 4;
+    grid-row: span 9;
+    padding: 10px;
+    color: blue;
+}
+
+#section8 h2 {
+   border-bottom: 2px solid blue;
+}
+
+footer {
+    border: 1px solid red;
+    grid-row: span 2;
+    grid-column: span 12;
+    background-color: red;
+    padding-top: 5px;
+    border-top: 5px solid blue;
+}
