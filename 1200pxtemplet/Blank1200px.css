@@ -1,0 +1,41 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  grid-template-rows: repeat(6, 100px); /* This is for the dummy columns, replace or delete */
+}
+h1 {
+  border: 1px solid blue;
+  grid-column: span 12;
+  height: 50px;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  grid-row:span 1
+}
+
+h2 {
+  grid-column: 12;
+  grid-row: span 4;
+}
+h2 li { 
+  display: inline-block;
+  border: 1px solid blue;
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+  background-color: blue;
+}
+
+h2 li a {
+  color: white;
+}
