@@ -1,5 +1,6 @@
 body {
   background-color: #999999;
+  font-family: "Google Sans Code", monospace;
 }
 
 #wrapper {
@@ -20,7 +21,9 @@ h1 {
   text-align: center;
   background-color: blue;
   color: white;
-  grid-row:span 1
+  grid-row:span 1;
+    font-family: "Google Sans Code", monospace; 
+   border-radius: 10px;
 }
 
 h2 {
@@ -34,8 +37,11 @@ h2 li {
   margin: 10px;
   width: 100px;
   background-color: blue;
+   border-radius: 20px;
+
 }
 
 h2 li a {
   color: white;
+  text-decoration: none;
 }
