@@ -52,3 +52,7 @@ h3 {
 h3 li {
   display: inline;
 }
+h3 img {
+  width: 600px;
+  float: left;
+}
